@@ -12,7 +12,7 @@ export default function App() {
     <Container>
       <PressableButton
         onPress={incrementCount}
-        bgColor={'pink'}
+        bgColor={'teal'}
         title={'Press Me!'}
       ></PressableButton>
       <Text>{count}</Text>
